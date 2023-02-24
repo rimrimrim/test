@@ -1,0 +1,15 @@
+current directory: /Users/takanorimidorikawa/Downloads/LitTok-master/vendor/bundle/ruby/2.7.0/gems/debug_inspector-0.0.3/ext/debug_inspector
+/Users/takanorimidorikawa/.rbenv/versions/2.7.0/bin/ruby -I /Users/takanorimidorikawa/.rbenv/versions/2.7.0/lib/ruby/2.7.0 -r ./siteconf20230224-41094-1cgc8zq.rb extconf.rb
+creating Makefile
+
+current directory: /Users/takanorimidorikawa/Downloads/LitTok-master/vendor/bundle/ruby/2.7.0/gems/debug_inspector-0.0.3/ext/debug_inspector
+make "DESTDIR=" clean
+
+current directory: /Users/takanorimidorikawa/Downloads/LitTok-master/vendor/bundle/ruby/2.7.0/gems/debug_inspector-0.0.3/ext/debug_inspector
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.bundle
+
+current directory: /Users/takanorimidorikawa/Downloads/LitTok-master/vendor/bundle/ruby/2.7.0/gems/debug_inspector-0.0.3/ext/debug_inspector
+make "DESTDIR=" install
+/usr/local/bin/ginstall -c -m 0755 debug_inspector.bundle ./.gem.20230224-41094-u9meob

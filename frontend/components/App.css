@@ -1,0 +1,1122 @@
+/* form {
+  display: block;
+  margin-top: 0em;
+}
+h2,
+h1,
+h3 {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-top: 0;
+  font-size: 2rem;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+} */
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+*:focus {
+  outline: none;
+}
+a:focus {
+  outline: none;
+  text-emphasis: none;
+}
+
+button:focus {
+  outline: 0;
+}
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.underline {
+  border-bottom: solid 1px #cfdcdc;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+.space-between {
+  justify-content: space-between;
+}
+.LogoutButton:hover {
+  background-color: #f47792;
+  color: white;
+  text-decoration: none;
+}
+.LogoutButton:active {
+  position: relative;
+  top: 1px;
+  text-decoration: none;
+}
+.LogoutButton {
+  background-color: #f12c54;
+  border-radius: 2px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 18px;
+  padding: 12px 52.5px;
+  text-decoration: none;
+}
+.LogButton {
+  background-color: #f12c54;
+  border-radius: 2px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 18px;
+  padding: 12px 58px;
+  text-decoration: none;
+}
+.LogButton[disabled] {
+  background-color: #f1f1f2;
+  border-radius: 2px;
+  display: inline-block;
+  cursor: pointer;
+  color: #aeafb2;
+  font-family: Arial;
+  font-size: 18px;
+  padding: 12px 58px;
+  text-decoration: none;
+}
+.LogButton[disabled]:hover {
+  background-color: #f1f1f2;
+  color: #aeafb2;
+  text-decoration: none;
+}
+
+.LogButton:hover {
+  background-color: #f47792;
+  color: white;
+  text-decoration: none;
+}
+.LogButton:active {
+  position: relative;
+  top: 1px;
+  text-decoration: none;
+}
+
+.LogButtonSide {
+  border-radius: 2px;
+  display: inline-block;
+  cursor: pointer;
+  color: #f12c54;
+  border: 1px solid #f12c54;
+  padding: 12px 58px;
+  text-decoration: none;
+}
+
+.LogButtonSide2 {
+  border-radius: 2px;
+  display: inline-block;
+  cursor: pointer;
+  color: #f12c54;
+  border: 1px solid #f12c54;
+  padding: 12px 59px;
+  text-decoration: none;
+}
+.LogButtonSide2:hover {
+  text-decoration: none;
+  color: #f12c54;
+}
+.LogButtonSide3 {
+  border-radius: 2px;
+  display: inline-block;
+  cursor: pointer;
+  color: #f12c54;
+  border: 1px solid #f12c54;
+  padding: 12px 38px;
+  text-decoration: none;
+}
+.LogButtonSide3:hover {
+  text-decoration: none;
+  color: #f12c54;
+}
+.LogButtonSide:hover {
+  text-decoration: none;
+  color: #f12c54;
+}
+
+.center1 {
+  align-self: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.navbar1 {
+  z-index: 6;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background-color: white;
+  width: 100%;
+  top: 0px;
+}
+
+.navbar2 {
+  position: relative;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0.83rem 1rem;
+}
+
+input[type="text"],
+select,
+input[type="password"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type="text"]:focus {
+  /* outline: 1px solid #00cfe7;
+  border-radius: 4px; */
+  box-shadow: 0 0 0 2px #00cfe7;
+  border-radius: 4px;
+}
+input[type="password"]:focus {
+  /* outline: 1px solid #00cfe7;
+  border-radius: 4px; */
+  box-shadow: 0 0 0 2px #00cfe7;
+  border-radius: 4px;
+}
+.containerlog {
+  border-radius: 5px;
+  padding: 20px;
+  width: 500px;
+  margin: auto;
+  text-align: left;
+}
+
+.center2 {
+  text-align: center;
+}
+
+body {
+  text-align: center;
+}
+
+.new-line {
+  white-space: pre-line;
+}
+
+.disp1 {
+  display: block;
+  font-size: 23px;
+  padding: 5px;
+  margin-right: 14px;
+}
+
+.sidenav {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 90px;
+  font-weight: bold;
+  background-color: white;
+}
+
+.active {
+  color: #f12c54;
+}
+
+.bpadding {
+  padding-bottom: 50px;
+}
+.bpadding2 {
+  padding-bottom: 25px;
+}
+
+.smallgrey {
+  font-size: 17px;
+  color: #999a9d;
+  font-weight: lighter;
+  padding: 2px;
+}
+
+.paddingRight {
+  padding-right: 20px;
+}
+.paddingLeft {
+  margin-left: 50px;
+}
+
+.box {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.modal-main {
+  position: fixed;
+  background-image: url("https://i.imgur.com/wcIYZCJ.png");
+  width: 850px;
+  height: 700px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  padding-top: 100px;
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+
+.not-active {
+  font-weight: normal;
+}
+
+.close-modal {
+  position: absolute;
+  font-size: 20px;
+  color: #a7a7ab;
+  margin-left: 350px;
+  top: 10px;
+  background-color: #f8f8f8;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  color: #a7a7ab;
+  font-family: Arial;
+  font-size: 23px;
+  font-weight: bold;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.close-modal2 {
+  position: absolute;
+  font-size: 20px;
+  color: red;
+  margin-left: 300px;
+  top: 10px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  color: blue;
+  font-family: Arial;
+  font-size: 23px;
+  font-weight: bold;
+  padding: 10px 12px;
+  text-decoration: none;
+}
+
+.small-login {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.red {
+  color: #f12c54;
+  text-decoration: none;
+}
+
+.videoBox {
+  background-color: #020102;
+  border-radius: 5px;
+  margin-left: 245px;
+  margin-right: 550px;
+}
+
+.zin {
+  z-index: 5;
+}
+
+.padding-bottom-vid {
+  padding-bottom: 70px;
+}
+
+html {
+  overflow: scroll;
+}
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+.padding-reset {
+  position: absolute;
+}
+
+.margin-top10 {
+  margin-top: 115px;
+  display: flex;
+  justify-content: center;
+  margin-left: 200px;
+}
+
+.upload-btn {
+  position: absolute;
+  right: 260px;
+  top: 19px;
+}
+
+.upload-btn2 {
+  position: absolute;
+  right: 200px;
+  top: 19px;
+}
+
+.boxy {
+  margin-left: 20px;
+  width: 290px;
+  height: 450px;
+  background-image: url("https://i.imgur.com/TUOQo0E.png");
+}
+.heightUpload {
+  padding-top: 40px;
+  height: 450px;
+  border-radius: 3px;
+}
+
+.txt-light {
+  color: #b6b7b9;
+}
+
+.redtxt {
+  color: #f12c54;
+}
+
+.header-form {
+  width: 330px;
+}
+
+.caption {
+  position: absolute;
+  right: 200px;
+  width: 500px;
+}
+
+.caption-text {
+  display: flex;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.upload-btn1 {
+  background-color: #f12c54;
+  border-radius: 2px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 14px;
+  padding: 12px 58.5px;
+  text-decoration: none;
+  position: absolute;
+  bottom: -40px;
+  left: 340px;
+}
+
+.upload2 {
+  display: flex;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.discard-btn {
+  position: relative;
+  bottom: -30px;
+  right: -32px;
+}
+
+.h1-upload {
+  font-size: 54px;
+  font-weight: bold;
+  padding-top: 50px;
+}
+
+.p-upload {
+  color: #83848a;
+  font-size: 18px;
+}
+
+.focus {
+  text-decoration: none;
+}
+
+.focus:focus {
+  -webkit-box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.48);
+  box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.48);
+}
+
+.no-file {
+  position: absolute;
+  top: 510px;
+  left: 45px;
+  width: 240px;
+  font-size: 12px;
+  background: #f8f8f8;
+  color: #ff2c4a;
+  font-weight: bold;
+}
+
+.no-file1 {
+  position: absolute;
+  top: 510px;
+  left: 45px;
+  width: 240px;
+  font-size: 12px;
+  background: #f8f8f8;
+  color: #2cff5b;
+  font-weight: bold;
+}
+
+.title-desc {
+  width: 345px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 250px;
+  text-align: initial;
+}
+
+.show-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.details {
+  margin-top: 15px;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 30%;
+}
+
+.background-show {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  background: rgb(234 231 231 / 55%);
+  height: 100%;
+}
+
+.videoShowBox2 {
+  width: 80%;
+  height: 100%;
+}
+
+.closeVid {
+  z-index: 2;
+  position: absolute;
+  font-size: 20px;
+  color: #ffffff;
+  top: 25px;
+  background-color: #50504d;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  font-family: Arial;
+  font-size: 23px;
+  font-weight: bold;
+  padding: 8px 16px;
+  text-decoration: none;
+  left: 30px;
+}
+
+.desc-main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-bottom: 1px solid #cfdcdc;
+  margin-bottom: 15px;
+}
+
+.desc {
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.static-username {
+  position: static;
+  margin: 100px 50px 20px 0px;
+}
+
+.DelButton {
+  background-color: #f12c54;
+  border-radius: 2px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 18px;
+  padding: 12px 58px;
+  text-decoration: none;
+}
+.DelButton:hover {
+  background-color: #f47792;
+  color: white;
+  text-decoration: none;
+}
+
+.comment-btn {
+  border-radius: 2px;
+  display: inline-block;
+  cursor: pointer;
+  color: #f12c54;
+  border: 1px solid #f12c54;
+  padding: 12px 59px;
+  text-decoration: none;
+}
+.comment-btn:hover {
+  text-decoration: none;
+  color: #f12c54;
+}
+
+.video-preview {
+  position: absolute;
+  top: 230px;
+  left: 20px;
+  background: black;
+  border-radius: 5px;
+}
+
+.flex-root {
+  display: flow-root;
+  justify-content: center;
+  margin-left: 185px;
+}
+
+.flex-root-child {
+  margin-left: 200px;
+  margin-right: 400px;
+  flex-direction: column;
+}
+
+.border-bottom-gr {
+  width: 850px;
+  padding-bottom: 15px;
+  border-bottom: solid 1px #cfdcdc;
+}
+
+.edit-btn {
+  position: relative;
+  top: -20px;
+  color: #999999;
+}
+
+.house-edit-form {
+  width: 100%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.comment-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 70px;
+}
+
+.comment-flex {
+  overflow: scroll;
+  height: 425px;
+
+  padding: 0;
+}
+.comment-flex1 {
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.comment-author {
+  text-align: left;
+}
+
+.footer-wrapper {
+  font-size: 11px;
+  color: #9b9ca0;
+  flex-wrap: wrap;
+  font-weight: 500;
+  position: absolute;
+  bottom: -15px;
+}
+
+.footer-links {
+  display: flex;
+  padding: 0;
+  flex-wrap: wrap;
+}
+.footer-links2 {
+  display: flex;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.p5 {
+  padding: 0px 5px 0px 10px;
+}
+
+.aside-footer {
+  display: flex;
+  padding-left: 10px;
+}
+.footer-input {
+  width: 175px;
+  color: #d8d8d9;
+  border: 1px solid #7f8086;
+  padding: 10px;
+  margin-right: 50px;
+}
+
+.github-logo {
+  position: absolute;
+  bottom: 155px;
+  left: 30px;
+}
+
+.scroll-back-button {
+  position: fixed;
+  bottom: 10px;
+  right: 30px;
+}
+
+.textarea {
+  border: 1px solid rgb(241, 44, 83);
+}
+.footer-comment {
+  color: #f12c54;
+  margin-left: 70px;
+}
+
+.login-link {
+  color: #f12c53;
+  text-decoration: underline;
+}
+a {
+  color: inherit;
+}
+a:hover {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+video:focus {
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+}
+*:focus {
+  outline: none;
+}
+
+.video-caption-text {
+  font-size: 16px;
+}
+
+.video-title-text {
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.splash-header {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  padding-bottom: 30px;
+}
+
+.splash-title {
+  font-size: 72px;
+  font-weight: 700;
+}
+
+.splash-caption {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.video-stream {
+  display: flex;
+  justify-content: center;
+  height: 584px;
+}
+.video-splash {
+  background-color: #020102;
+}
+
+.splash-links {
+  background-color: black;
+  border-bottom: 1px solid white;
+  display: flex;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+}
+
+.footer-splash {
+  display: flex;
+  justify-content: center;
+  background: black;
+  height: 170px;
+}
+
+.splash-footer-ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 55%;
+  padding: 25px 55px 0px 35px;
+  font-size: 11px;
+  color: white;
+  font-weight: 500;
+}
+
+.first-li {
+  font-weight: 700;
+}
+
+.footer-img {
+  height: 110px;
+  width: 198px;
+  position: relative;
+}
+
+.splash-aside-footer {
+  display: flex;
+  height: 10%;
+  position: relative;
+  top: 260px;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.splash-footer-input {
+  position: relative;
+  top: 230px;
+  width: 150px;
+  padding: 5px;
+  background: black;
+  color: white;
+  border-radius: 0px;
+  left: -75px;
+}
+
+.img-pad-splash {
+  padding: 1px;
+  border: 1px solid white;
+  margin: 7px;
+  border-radius: 5px;
+}
+
+.splash-apps {
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  background: black;
+  margin: 0;
+  position: relative;
+  top: 0px;
+  height: 25px;
+  /* left: 20px; */
+  padding-top: 15px;
+  padding-left: 30px;
+}
+
+.comment-index {
+  width: 345px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: 250px;
+  text-align: initial;
+  padding-top: 5px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.comment-section {
+  display: flex;
+  padding: 15px;
+  align-items: center;
+}
+
+.comment-body {
+  margin: auto;
+}
+
+.Likes {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.comment-container {
+  width: 100%;
+}
+
+.edit-form {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 15px;
+}
+
+.four-p {
+  padding-bottom: 26%;
+}
+
+.red-errors {
+  font-size: 12px;
+  color: #ff493a;
+}
+
+.gray-small {
+  font-size: 12px;
+  color: #505257;
+}
+
+.username-label {
+  width: 92%;
+}
+
+.profile-view {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.vids1 {
+  padding-right: 0px;
+  margin-right: 0px;
+  margin-left: 235px;
+}
+
+.profile-name {
+  padding-top: 100px;
+  padding-left: 15%;
+  padding-bottom: 20px;
+}
+
+.videoBox1 {
+  background-color: #020102;
+}
+
+.p5-1 {
+  padding: 0px 5px 5px 5px;
+}
+
+.img-thumbnail-p {
+  height: 100px;
+  width: 100px;
+}
+.img-thumbnail-p1 {
+  height: 75px;
+  width: 75px;
+}
+.img-thumbnail-p3 {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  right: 195px;
+  top: 5px;
+}
+.title-p {
+  padding-left: 20px;
+}
+.p-sizing {
+  width: 125%;
+}
+.p-left-profile {
+  padding-left: 10%;
+}
+.bio {
+  padding-left: 8%;
+  width: 73%;
+}
+
+.FollowButton {
+  background-color: #f12c54;
+  border-radius: 2px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 5px 80px;
+  text-decoration: none;
+}
+
+.FollowButton:hover {
+  background-color: #e9e9e9;
+  color: white;
+  text-decoration: none;
+}
+.FollowButton:active {
+  position: relative;
+  top: 1px;
+  text-decoration: none;
+}
+.pro-color {
+  color: #4e4e4e;
+}
+
+.bio-pro {
+  position: relative;
+  right: 90%;
+}
+
+.FollowIndex {
+  border-radius: 2px;
+  display: inline-block;
+  cursor: pointer;
+  color: #f12c54;
+  border: 1px solid #f12c54;
+  padding: 1px 21px;
+  text-decoration: none;
+}
+.FollowIndex:hover {
+  background: #f8f8f8;
+  text-decoration: none;
+  color: #f12c54;
+}
+.img-thumbnail-p2 {
+  margin: -15px 10px 0px 0px;
+  height: 50px;
+  width: 50px;
+}
+
+.FollowShow {
+  border-radius: 2px;
+  display: inline-block;
+  cursor: pointer;
+  color: #f12c54;
+  border: 1px solid #f12c54;
+  padding: 0px 36px;
+  text-decoration: none;
+  height: 35px;
+}
+.FollowShow:hover {
+  background: #f8f8f8;
+  text-decoration: none;
+  color: #f12c54;
+}
+.FollowShow1 {
+  border-radius: 2px;
+  display: inline-block;
+  cursor: pointer;
+  color: black;
+  border: 1px solid #e3e3e4;
+  padding: 0px 36px;
+  text-decoration: none;
+  height: 35px;
+}
+.FollowShow1:hover {
+  text-decoration: none;
+  background: #f8f8f8;
+  color: black;
+}
+.FollowIndex1 {
+  border-radius: 2px;
+  display: inline-block;
+  cursor: pointer;
+  color: black;
+  border: 1px solid #e3e3e4;
+  padding: 1px 21px;
+  text-decoration: none;
+}
+.FollowIndex1:hover {
+  background: #f8f8f8;
+  text-decoration: none;
+  color: black;
+}
+.FollowButton1 {
+  border-radius: 2px;
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid #e3e3e4;
+  color: black;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 5px 80px;
+  text-decoration: none;
+}
+
+.FollowButton1:hover {
+  color: black;
+  text-decoration: none;
+  background: #f8f8f8;
+}
+.FollowButton1:active {
+  position: relative;
+  top: 1px;
+  text-decoration: none;
+}
+
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0px; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: #ff0000;
+}
